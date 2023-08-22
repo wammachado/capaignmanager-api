@@ -138,9 +138,7 @@ class CampanhaController
             if ($campanhadelete) {
                 return [
                     'success' => 1,
-                    'error' => [
-                        'message' => 'Campaign deleted successfully',
-                    ],
+                    'error' => [],
                     'data' => [],
                 ];
                 
